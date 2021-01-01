@@ -3,7 +3,7 @@
 The PPO algorithm is a modification of the Reinforce algorithm.
 It improves some limitations of the Reinforce algorithm. Specifically instead of trying to maximaze the function:
 
-$$\sum_{}$$
+$\sum_{}$
 
 1. It uses normalized rewards and 
 
