@@ -3,7 +3,6 @@
 The PPO algorithm is a modification of the Reinforce algorithm.
 It improves some limitations of the Reinforce algorithm. Specifically instead of trying to maximaze the function:
 
-<img src="https://latex.codecogs.com/gif.latex?O_t=\text { Onset event at time bin } t " /> 
 $$\sum_{episode = 1}^{n} \sum_{t = 0}^{T} Reward_{episode}log(p(a_t|s_t),$$
 
 it maximizes a different function which is built to avoid the following problematics:
@@ -17,12 +16,14 @@ $$\sum_{episode = 1}^{n} \sum_{t = 0}^{T} Reward-Collect-From-Time-t-Onwards_{ep
 
 Notice that substituting a function with another one introduces an error. This error might be catastrophic. To avoid catastrophies we clip the previous function.
 
-# Installation
+## Requirements
 
-TODO Adding the requirements.txt file
+torch
+gym
+numpy
 
-Simply clone the repository and run the requirements.txt file on your machine.
+JSAnimation.IPython_display
+matplotlib 
+IPython.display
+multiprocessing
 
-# Video
-
-TODO Adding Videos
