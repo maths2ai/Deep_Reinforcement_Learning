@@ -19,16 +19,10 @@ Notice that substituting a function with another one introduces an error. This e
 ## Requirements
 
 torch
-
 gym
-
 numpy
-
 JSAnimation.IPython_display
-
 matplotlib 
-
 IPython.display
-
 multiprocessing
 
