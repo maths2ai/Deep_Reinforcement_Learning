@@ -3,6 +3,7 @@
 The PPO algorithm is a modification of the Reinforce algorithm.
 It improves some limitations of the Reinforce algorithm. Specifically instead of trying to maximaze the function:
 
+<img src="https://latex.codecogs.com/gif.latex?O_t=\text { Onset event at time bin } t " /> 
 $$\sum_{episode = 1}^{n} \sum_{t = 0}^{T} Reward_{episode}log(p(a_t|s_t),$$
 
 it maximizes a different function which is built to avoid the following problematics:
