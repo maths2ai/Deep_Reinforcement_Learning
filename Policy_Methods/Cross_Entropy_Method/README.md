@@ -8,6 +8,6 @@ The code is largely inspired by the book "Deep Reinforcement Learning Hands On".
 
 ## Requirements
 
-gym
-torch
-numpy
+gym,
+torch,
+numpy.
