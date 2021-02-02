@@ -6,7 +6,7 @@ To make bootstrap possible, in the Bellman equation, a target Q-table is created
 
 ## Requirements
 
-gym, random, torch, numpy, matplotlib, IPython.display,random
+gym, random, torch, numpy, matplotlib, IPython.display, random.
 
 ## Notice
 
