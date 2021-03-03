@@ -10,3 +10,5 @@ Q(next_state, next_action) is evaluated with another net. This decoupling proced
 
 ## Requirements
 
+gym, random, torch, numpy, matplotlib, IPython.display, random.
+
